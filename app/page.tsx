@@ -11,9 +11,9 @@ import {
   Briefcase,
   GraduationCap,
   BookOpen,
-  Camera,
-  Plane,
-  ChefHat,
+  Dumbbell,
+  Gamepad2,
+  Mountain,
   MapPin,
   CheckCircle2
 } from "lucide-react";
@@ -195,9 +195,9 @@ const Home = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                 {[
                   { name: 'Reading', Icon: BookOpen },
-                  { name: 'Sports (Fitness, Chess, Basketball)', Icon: Camera },
-                  { name: 'Esports (CS2, Dota 2)', Icon: Plane },
-                  { name: 'Hiking', Icon: ChefHat }
+                  { name: 'Sports (Fitness, Chess, Basketball)', Icon: Dumbbell },
+                  { name: 'Esports (CS2, Dota 2)', Icon: Gamepad2 },
+                  { name: 'Hiking', Icon: Mountain }
                 ].map((hobby) => (
                   <Card key={hobby.name} className="transition-all py-0 duration-300 hover:shadow-md md:hover:scale-105 cursor-pointer group/hobby border-blue-100">
                     <CardContent className="p-3 md:p-4">
